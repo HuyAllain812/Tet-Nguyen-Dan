@@ -288,9 +288,6 @@ function playback(){
     playSound.start(ctx.currentTime);
 }
 window.addEventListener('click',playback);  
-<<<<<<< HEAD
 function hide(x){
     x.style.display='none';
 }
-=======
->>>>>>> 4129e0a95d321bacf646567eae908c9a57cf2a79
