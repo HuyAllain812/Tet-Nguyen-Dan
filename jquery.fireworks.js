@@ -275,7 +275,7 @@
 }(jQuery));
 const ctx= new AudioContext();
 let audio;
-fetch("s.mp4")
+fetch("s.mp3")
     .then(data => data.arrayBuffer())
     .then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
     .then(decodeAudioData =>{
@@ -290,4 +290,4 @@ function playback(){
 window.addEventListener('click',playback);  
 function hide(x){
     x.style.display='none';
-}
+}x
